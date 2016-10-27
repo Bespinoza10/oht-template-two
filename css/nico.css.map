@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "nico.css",
+	"sources": [
+		"../scss/nico.scss"
+	],
+	"mappings": "",
+	"names": []
+}
