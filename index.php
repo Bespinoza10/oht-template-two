@@ -21,7 +21,7 @@
     <?php
 
       include 'sections/nav.php';
-      include 'sections/slider1.php';
+      include 'sections/hero.php';
       include 'sections/about.php';
       include 'sections/services.php';
       include 'sections/slogan.php';

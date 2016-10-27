@@ -57,35 +57,41 @@ input.form-control, .form-control[readonly] {
     background-color: #DEAF4D; }
 
 nav.navbar {
-  border-top: none;
+  border: none;
   border-radius: 0px;
-  background-color: #fefefe;
+  background-color: transparent;
   min-height: 80px;
   margin-bottom: 0px; }
-  nav.navbar .navbar-header, nav.navbar .navbar-nav {
+  nav.navbar .navbar-header {
     margin-top: 2vh; }
-  nav.navbar .navbar-nav li a {
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    color: #DEAF4D;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s; }
-    nav.navbar .navbar-nav li a:hover {
-      color: #8224E3;
+    nav.navbar .navbar-header a {
+      color: #fefefe;
+      font-weight: 100;
+      letter-spacing: 5px; }
+  nav.navbar .navbar-nav {
+    margin-top: 2vh; }
+    nav.navbar .navbar-nav li a {
+      font-family: 'Lato', sans-serif;
+      font-size: 13px;
+      letter-spacing: 3px;
+      font-weight: 100;
+      color: #DEAF4D;
       -moz-transition: all 0.8s;
       -o-transition: all 0.8s;
       -webkit-transition: all 0.8s;
       transition: all 0.8s; }
-    nav.navbar .navbar-nav li a:focus {
-      color: #8224E3;
-      -moz-transition: all 0.8s;
-      -o-transition: all 0.8s;
-      -webkit-transition: all 0.8s;
-      transition: all 0.8s; }
+      nav.navbar .navbar-nav li a:hover {
+        color: #8224E3;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s; }
+      nav.navbar .navbar-nav li a:focus {
+        color: #8224E3;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s; }
 
 .well {
   border-radius: 0px;
@@ -97,9 +103,23 @@ nav.navbar {
     height: 60vh;
     overflow-y: scroll !important;
     overflow-x: hidden !important; } }
-
-.carousel-control.left, .carousel-control.right {
-  display: none; }
+.hero {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("../img/bg_cine.gif");
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  margin-top: -20px; }
+  .hero .hero-caption {
+    top: 50vh; }
+    .hero .hero-caption h1 {
+      font-size: 80px;
+      letter-spacing: 3px; }
 
 #about, #slogan {
   background-color: #8224E3;
@@ -189,7 +209,6 @@ nav.navbar {
         padding-right: 20px; }
       .footer .footer-links .fa {
         font-size: 20px; } }
-
 .modal-content {
   border: none;
   border-radius: 0px; }
@@ -215,7 +234,6 @@ nav.navbar {
     -o-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s; }
-
 .modal .btn-login {
   margin-top: 20px;
   border-radius: 0px;
@@ -237,5 +255,3 @@ nav.navbar {
 
 #services-modal .modal-dialog, #about-modal .modal-dialog, #slider-one .modal-dialog, #slider-two .modal-dialog {
   width: 90%; }
-
-/*# sourceMappingURL=brandon.css.map */
