@@ -3315,6 +3315,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/custom-design.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21671,
+		"inputAbbreviatedPath": "\/img\/icons\/custom-design.png",
+		"outputAbbreviatedPath": "\/img\/icons\/custom-design.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/iphone-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20594,
+		"inputAbbreviatedPath": "\/img\/icons\/iphone-icon.png",
+		"outputAbbreviatedPath": "\/img\/icons\/iphone-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/shoe-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31776,
+		"inputAbbreviatedPath": "\/img\/icons\/shoe-icon.png",
+		"outputAbbreviatedPath": "\/img\/icons\/shoe-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/yoyo-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32952,
+		"inputAbbreviatedPath": "\/img\/icons\/yoyo-icon.png",
+		"outputAbbreviatedPath": "\/img\/icons\/yoyo-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/JW.ORG.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

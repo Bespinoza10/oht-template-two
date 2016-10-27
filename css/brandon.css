@@ -24,8 +24,8 @@ input.form-control, .form-control[readonly] {
   float: none; }
 
 .padding-section {
-  padding-top: 10%;
-  padding-bottom: 10%; }
+  padding-top: 6%;
+  padding-bottom: 6%; }
 
 .padding-top-little {
   padding-top: 15px; }
@@ -166,6 +166,9 @@ nav.navbar.shrink-nav {
 
 #services p {
   font-weight: 100; }
+#services .services-icon {
+  width: 100px;
+  height: 100px; }
 
 #contact {
   background-color: #333;

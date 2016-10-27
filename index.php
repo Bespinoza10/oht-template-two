@@ -22,7 +22,7 @@
 
       include 'sections/nav.php';
       include 'sections/hero.php';
-      include 'sections/about.php';
+
       include 'sections/services.php';
       include 'sections/slogan.php';
       include 'sections/slider2.php';

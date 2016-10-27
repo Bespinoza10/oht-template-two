@@ -40,8 +40,8 @@ input.form-control, .form-control[readonly]{
 }
 
 .padding-section{
-  padding-top: 10%;
-  padding-bottom:10%;
+  padding-top: 6%;
+  padding-bottom:6%;
 }
 .padding-top-little{
   padding-top: 15px;
@@ -206,6 +206,10 @@ input.form-control, .form-control[readonly]{
 #services{
   p{
     font-weight: 100;
+  }
+  .services-icon{
+    width: 100px;
+    height: 100px;
   }
 }
 
