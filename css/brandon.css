@@ -56,23 +56,23 @@ input.form-control, .form-control[readonly] {
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #DEAF4D; }
 
-nav.navbar {
+.navbar {
   border: none;
   border-radius: 0px;
   background-color: transparent;
-  min-height: 80px;
   margin-bottom: 0px; }
-  nav.navbar .navbar-header {
-    margin-top: 2vh; }
-    nav.navbar .navbar-header a {
+  .navbar .navbar-header {
+    margin-top: 2vh;
+    font-size: 20px; }
+    .navbar .navbar-header a {
       color: #fefefe;
       font-weight: 100;
       letter-spacing: 5px; }
-  nav.navbar .navbar-nav {
+  .navbar .navbar-nav {
     margin-top: 2vh; }
-    nav.navbar .navbar-nav li a {
+    .navbar .navbar-nav li a {
       font-family: 'Lato', sans-serif;
-      font-size: 13px;
+      font-size: 18px;
       letter-spacing: 3px;
       font-weight: 100;
       color: #DEAF4D;
@@ -80,18 +80,39 @@ nav.navbar {
       -o-transition: all 0.8s;
       -webkit-transition: all 0.8s;
       transition: all 0.8s; }
-      nav.navbar .navbar-nav li a:hover {
+      .navbar .navbar-nav li a:hover {
         color: #8224E3;
         -moz-transition: all 0.8s;
         -o-transition: all 0.8s;
         -webkit-transition: all 0.8s;
         transition: all 0.8s; }
-      nav.navbar .navbar-nav li a:focus {
+      .navbar .navbar-nav li a:focus {
         color: #8224E3;
         -moz-transition: all 0.8s;
         -o-transition: all 0.8s;
         -webkit-transition: all 0.8s;
         transition: all 0.8s; }
+
+nav.navbar.shrink-nav {
+  background: #DEAF4D;
+  min-height: 20px !important;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -o-transition: background .3s ease-in-out; }
+  nav.navbar.shrink-nav .navbar-brand {
+    font-size: 15px;
+    transition: font-size .3s ease-in-out;
+    -webkit-transition: font-size .3s ease-in-out;
+    -o-transition: font-size .3s ease-in-out;
+    -moz-transition: font-size .3s ease-in-out; }
+  nav.navbar.shrink-nav .navbar-right li > a {
+    font-size: 13px;
+    color: #fefefe;
+    transition: font-size .3s ease-in-out;
+    -webkit-transition: font-size .3s ease-in-out;
+    -o-transition: font-size .3s ease-in-out;
+    -moz-transition: font-size .3s ease-in-out; }
 
 .well {
   border-radius: 0px;

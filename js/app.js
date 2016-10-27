@@ -15,6 +15,14 @@ $(document).ready(function(){
   });
 });
 
+$(document).scroll(function() {
+  if ($(document).scrollTop() > 200) {
+    $('nav').addClass('shrink-nav');
+  } else {
+    $('nav').removeClass('shrink-nav');
+  }
+});
+
 $(function() {
 
   // We can attach the `fileselect` event to all file inputs on the page

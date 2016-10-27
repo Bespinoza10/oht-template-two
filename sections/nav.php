@@ -21,9 +21,9 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-    <a class="btn btn-warning" role="button" data-toggle="collapse" href="#nav-edit" aria-expanded="false" aria-controls="collapseExample">
+    <!-- <a class="btn btn-warning" role="button" data-toggle="collapse" href="#nav-edit" aria-expanded="false" aria-controls="collapseExample">
       Editar Navegacion
-    </a>
+    </a> -->
 
     <div class="col-md-12">
       <?php
