@@ -64,6 +64,20 @@ input.form-control, .form-control[readonly] {
   .navbar .navbar-header {
     margin-top: 2vh;
     font-size: 20px; }
+    .navbar .navbar-header .btn-border {
+      border: 1px solid #fefefe;
+      color: #fff;
+      padding: 10px;
+      -moz-transition: all 0.6s;
+      -o-transition: all 0.6s;
+      -webkit-transition: all 0.6s;
+      transition: all 0.6s; }
+      .navbar .navbar-header .btn-border:hover {
+        padding: 10px 20px;
+        -moz-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        -webkit-transition: all 0.6s;
+        transition: all 0.6s; }
     .navbar .navbar-header a {
       color: #fefefe;
       font-weight: 100;
@@ -96,23 +110,25 @@ input.form-control, .form-control[readonly] {
 nav.navbar.shrink-nav {
   background: #DEAF4D;
   min-height: 20px !important;
-  transition: background .3s ease-in-out;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  -o-transition: background .3s ease-in-out; }
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s; }
   nav.navbar.shrink-nav .navbar-brand {
     font-size: 15px;
-    transition: font-size .3s ease-in-out;
-    -webkit-transition: font-size .3s ease-in-out;
-    -o-transition: font-size .3s ease-in-out;
-    -moz-transition: font-size .3s ease-in-out; }
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
   nav.navbar.shrink-nav .navbar-right li > a {
     font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 5px;
     color: #fefefe;
-    transition: font-size .3s ease-in-out;
-    -webkit-transition: font-size .3s ease-in-out;
-    -o-transition: font-size .3s ease-in-out;
-    -moz-transition: font-size .3s ease-in-out; }
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
 
 .well {
   border-radius: 0px;
