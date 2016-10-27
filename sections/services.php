@@ -8,7 +8,7 @@
 
   <div class="col-sm-3 col-md-3">
     <div class="col-md-6 center">
-      <img class="img-responsive" src="img/icons/custom-design.png">
+      <img class="img-responsive" src="img/custom-design.png">
     </div>
     <h3 class="text-center">
       Custom Design
@@ -23,7 +23,7 @@
 
   <div class="col-sm-3 col-md-3">
     <div class="col-md-6 center">
-      <img class="img-responsive " src="img/icons/shoe-icon.png">
+      <img class="img-responsive " src="img/shoe-icon.png">
     </div>
     <h3 class="text-center">
       Shoe Design
@@ -37,7 +37,7 @@
 
   <div class="col-sm-3 col-md-3">
     <div class="col-md-6 center">
-      <img class="img-responsive" src="img/icons/yoyo-icon.png">
+      <img class="img-responsive" src="img/yoyo-icon.png">
     </div>
     <h3 class="text-center">
       Yoyo Design
@@ -51,7 +51,7 @@
 
   <div class="col-sm-3 col-md-3">
     <div class="col-md-6 center">
-      <img class="img-responsive" src="img/icons/iphone-icon.png">
+      <img class="img-responsive" src="img/iphone-icon.png">
     </div>
     <h3 class="text-center">
       iPhone Case Design
