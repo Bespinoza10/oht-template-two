@@ -1,8 +1,11 @@
 <div class="container-fluid" id="slogan">
   <div class="container padding-section">
     <h1 class="text-center">
-      Spicy jalapeno bacon ipsum dolor amet corned beef spare ribs bacon biltong.
+      Custom . Unique . Fresh
     </h1>
+    <div class="col-md-6 center">
+      <a class="btn btn-contact" href="#contact">Contact Us</a>
+    </div>
 
     <a class="btn btn-warning" data-toggle="modal" href="#about-modal">Editar Sobre Nosotros</a>
   </div>

@@ -24,8 +24,8 @@
       include 'sections/hero.php';
 
       include 'sections/services.php';
+      include 'sections/slogan.php';
       include 'sections/gallery.php';
-
       include 'sections/contact.php';
       include 'sections/footer.php';
 

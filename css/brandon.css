@@ -158,11 +158,34 @@ nav.navbar.shrink-nav {
       font-size: 80px;
       letter-spacing: 3px; }
 
-#about, #slogan {
-  background-color: #8224E3;
-  color: #fefefe; }
-  #about p, #slogan p {
-    font-weight: 100; }
+#slogan {
+  background-color: #DEAF4D;
+  color: #222222; }
+  #slogan h1 {
+    font-weight: 100;
+    letter-spacing: 10px;
+    text-transform: uppercase; }
+  #slogan .btn-contact {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    border-radius: 0px;
+    background: none;
+    border: 2px solid #222222;
+    padding: 3% 0;
+    letter-spacing: 4px;
+    color: #000;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s; }
+    #slogan .btn-contact:hover {
+      border-color: #fefefe;
+      color: #fff;
+      -moz-transition: all 0.6s;
+      -o-transition: all 0.6s;
+      -webkit-transition: all 0.6s;
+      transition: all 0.6s; }
 
 #services p {
   font-weight: 100; }
@@ -203,10 +226,10 @@ div.caption:after {
   bottom: 0;
   content: '';
   opacity: 0.75;
-  -webkit-transform: skew(-45deg) scaleX(0);
+  -webkit-transform: skew(-35deg) scaleX(0);
   transform: skew(-35deg) scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
 
 div.caption figcaption {
   position: absolute;
@@ -220,7 +243,7 @@ div.caption figcaption {
 div.caption h2,
 div.caption p {
   margin: 0;
-  width: 100%;
+  width: 80%;
   opacity: 0; }
 
 div.caption h2 {
@@ -242,7 +265,7 @@ div.caption:hover:after,
 div.caption.hover:after {
   -webkit-transform: skew(0deg) scaleX(1);
   transform: skew(0deg) scaleX(1);
-  transition: all 1.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
 div.caption:hover figcaption h2,
 div.caption.hover figcaption h2,
@@ -260,6 +283,20 @@ div.caption.hover figcaption h2 {
 div.caption:hover figcaption p,
 div.caption.hover figcaption p {
   opacity: 0.7; }
+
+div.caption img {
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
+
+div.caption:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 #contact {
   background-color: #333;
