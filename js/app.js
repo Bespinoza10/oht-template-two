@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
@@ -23,6 +22,13 @@ $(document).ready(function(){
   });
 });
 
+$(document).scroll(function() {
+  if ($(document).scrollTop() > 200) {
+    $('nav').addClass('shrink-nav');
+  } else {
+    $('nav').removeClass('shrink-nav');
+  }
+});
 
 $(function() {
 
