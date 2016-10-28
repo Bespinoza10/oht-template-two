@@ -44,14 +44,14 @@
     <div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g1.jpg" alt="" />
       <figcaption>
-        <h2 class="after">Custom Cleats</h2>
+        <h2 class="after">Space Blue</h2>
       </figcaption>
     </div>
 
     <div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g3.jpg" alt="" />
       <figcaption>
-        <h2 class="after">Custom Cleats</h2>
+        <h2 class="after"> Carvey Cases<h2>
       </figcaption>
     </div>
 
