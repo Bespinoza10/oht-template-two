@@ -24,8 +24,8 @@
       include 'sections/hero.php';
 
       include 'sections/services.php';
-      include 'sections/slogan.php';
-      include 'sections/slider2.php';
+      include 'sections/gallery.php';
+
       include 'sections/contact.php';
       include 'sections/footer.php';
 
@@ -37,14 +37,12 @@
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/masonry/dist/masonry.pkgd.js"></script>
     <script src="js/app.js"></script>
     <script type="text/javascript">
-    $(document).ready(function(){
-     $('.slider1', '.slider2').carousel({
-       interval: 100,
-       cycle: true,
-       pause: "null"
-     });
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
     });
 
     </script>

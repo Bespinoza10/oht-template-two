@@ -170,6 +170,10 @@ nav.navbar.shrink-nav {
   width: 100px;
   height: 100px; }
 
+.gallery-img {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 #contact {
   background-color: #333;
   color: #fefefe; }
