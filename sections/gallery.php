@@ -8,63 +8,39 @@
       </figcaption>
     </div></a>
 
-    <div class="grid-item caption gallery-img col-md-6">
+    <a data-toggle="modal" data-target="#second-img"><div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g3.jpg" alt="" />
       <figcaption>
         <h2 class="after">Carvy Cases</h2>
       </figcaption>
-    </div>
+    </div></a>
 
-    <div class="grid-item caption gallery-img col-md-6">
+    <a data-toggle="modal" data-target="#third-img"><div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g2.jpg" alt="" />
       <figcaption>
         <h2 class="after">Custom Cleats</h2>
       </figcaption>
-    </div>
+    </div></a>
 
-    <div class="grid-item caption gallery-img col-md-6">
+    <a data-toggle="modal" data-target="#fourth-img"><div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g5.jpg" alt="" />
       <figcaption>
         <h2 class="after">Speed of Light Yoyo</h2>
       </figcaption>
-    </div>
-    <div class="grid-item caption gallery-img col-md-6">
+    </div></a>
+    <a data-toggle="modal" data-target="#fith-img"><div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g4.jpg" alt="" />
       <figcaption>
         <h2 class="after">EXE iPhone Cases</h2>
       </figcaption>
-    </div>
+    </div></a>
 
-    <div class="grid-item caption gallery-img col-md-6">
+    <a data-toggle="modal" data-target="#sixth-img"><div class="grid-item caption gallery-img col-md-6">
       <img class="img-responsive" src="img/g6.jpg" alt="" />
       <figcaption>
         <h2 class="after">Splash Yoyo</h2>
       </figcaption>
-    </div>
-    <!-- <figure class="snip1206">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample74.jpg" alt="sample74"/>
-      <figcaption>
-        <h2>Jason Response</h2>
-        <p>Just makes people try to do everything at once.</p>
-      </figcaption>
-      <a href="#"></a>
-    </figure>
-    <figure class="snip1206 hover">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample69.jpg" alt="sample69"/>
-      <figcaption>
-        <h2>Fleece Marigold</h2>
-        <p>We'd invent machines that do things less efficiently.</p>
-      </figcaption>
-      <a href="#"></a>
-    </figure>
-    <figure class="snip1206">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample13.jpg" alt="sample13"/>
-      <figcaption>
-        <h2>Ruby Von Rails</h2>
-        <p>To the machines and go play outside.</p>
-      </figcaption>
-      <a href="#"></a>
-    </figure> -->
+    </div></a>
 
   </div>
 </div>
