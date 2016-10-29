@@ -7,6 +7,6 @@
       <a class="btn btn-contact" href="#contact">Contact Us</a>
     </div>
 
-    <a class="btn btn-warning" data-toggle="modal" href="#about-modal">Editar Sobre Nosotros</a>
+    <a class="btn btn-warning" data-toggle="modal" data-target="#slogan-modal">Editar Sobre Nosotros</a>
   </div>
 </div>

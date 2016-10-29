@@ -10,30 +10,35 @@
             <div class="checkbox">
               <label>
                 <input type="checkbox"> Facebook
+                <input class="form-control" placeholder="Add URL">
               </label>
             </div>
 
             <div class="checkbox">
               <label>
                 <input type="checkbox"> Instagram
+                <input class="form-control" placeholder="Add URL">
               </label>
             </div>
 
             <div class="checkbox">
               <label>
                 <input type="checkbox"> Twitter
+                <input class="form-control" placeholder="Add URL">
               </label>
             </div>
 
             <div class="checkbox">
               <label>
                 <input type="checkbox"> Linkedin
+                <input class="form-control" placeholder="Add URL">
               </label>
             </div>
 
             <div class="checkbox">
               <label>
                 <input type="checkbox"> Pinterest
+                <input class="form-control" placeholder="Add URL">
               </label>
             </div>
             <div class="col-lg-12 padding-section-elements-top">

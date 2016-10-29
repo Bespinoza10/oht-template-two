@@ -23,6 +23,9 @@ input.form-control, .form-control[readonly] {
   margin: 0 auto;
   float: none; }
 
+.padding-none {
+  padding: 0; }
+
 .padding-section {
   padding-top: 6%;
   padding-bottom: 6%; }
@@ -297,6 +300,9 @@ div.caption:hover img {
   -o-transition: all 1s;
   -webkit-transition: all 1s;
   transition: all 1s; }
+
+.modal .gallery-modal {
+  width: 80%; }
 
 #contact {
   background-color: #333;

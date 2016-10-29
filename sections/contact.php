@@ -44,7 +44,7 @@
                 <button type="submit" class="btn btn-contact">Send Message</button>
             </div>
 
-              <a class="btn btn-warning" data-toggle="modal" href="#contact-form-modal">Configurar Forma de Contacto</a>
+              <a class="btn btn-warning" data-toggle="modal" data-target="#contact-form-modal">Configurar Forma de Contacto</a>
           </div>
         </form>
       </div>

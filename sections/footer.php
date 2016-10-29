@@ -1,5 +1,5 @@
 <div class="container-fluid footer">
-  <a class="btn btn-warning" role="button" data-toggle="collapse" href="#footer-edit" aria-expanded="false"    aria-controls="collapseExample">
+  <a class="btn btn-warning" role="button" data-toggle="collapse" data-target="#footer-edit" aria-expanded="false"    aria-controls="collapseExample">
     Editar Footer
   </a>
   <div class="container">
@@ -38,7 +38,7 @@
             <li><a href="#">Services</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a role="button" data-toggle="collapse" href="#loginDrop" aria-expanded="false"    aria-controls="collapseExample">
+            <li><a role="button" data-toggle="collapse" data-target="#loginDrop" aria-expanded="false"    aria-controls="collapseExample">
               Login
             </a></li>
 

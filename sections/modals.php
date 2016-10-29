@@ -164,46 +164,38 @@
 
 
 
-<!-- SERVICES EDIT MODAL -->
+<!-- SLOGAN -->
 
 
 
-<div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="slogan-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h1 class="modal-title" id="myModalLabel">Edite La Section : Sobre Nosotros</h1>
+        <h1 class="modal-title" id="myModalLabel">Edit Slogan</h1>
       </div>
       <div class="modal-body padding-section">
         <div class="row">
           <div class="col-lg-12">
-
-
             <div class="col-sm-12 col-md-6">
               <h1 class="text-center">Previa</h1>
               <p class="text-center">
-
                 <textarea rows="4" cols="50" class="form-control" placeholder="Example Text" required></textarea>
               </p>
             </div>
-
             <div class="col-sm-12 col-md-6">
               <h1 class="text-center">Actual</h1>
               <p class="text-center">
-
                 <textarea rows="4" cols="50" class="form-control" placeholder="Example Text" required></textarea>
               </p>
             </div>
-
 
             <div class="col-lg-12 text-center padding-section-elements-bottom">
                 <div id="success"></div>
                 <button type="submit" class="btn btn-success btn-big">Actualizar</button>
             </div>
 
-
-
           </div>
         </div>
       </div>
@@ -211,93 +203,10 @@
   </div>
 </div>
 
-
-
-<!-- SLIDER1 EDIT MODAL -->
-<div class="modal fade" id="slider-two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h1 class="modal-title" id="myModalLabel">Edite Slider 2</h1>
-      </div>
-      <div class="modal-body padding-section">
-        <div class="row">
-          <div class="col-lg-12">
-            <form name="sentMessage" id="sliderForm" novalidate>
-              <div class="row">
-
-
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                </div>
-
-
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center padding-section-elements-bottom">
-                    <div id="success"></div>
-                    <button type="submit" class="btn btn-success btn-big">Actualizar</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
+<!-- PORTFOLIO MODALS -->
+<?php include 'gallery/gallery-modals.php';?>
 
 <!-- CONTACT FORM MODAL -->
-
-
-
 <div class="modal fade" id="contact-form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -333,50 +242,6 @@
               </div>
             </form>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- LOGIN MODAL -->
-
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <div class="col-lg-12">
-          <form>
-            <div class="row">
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Su Nombre *" id="name" required data-validation-required-message="Please enter your name." required="true">
-                      <p class="help-block text-danger"></p>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Su Email *" id="email" required data-validation-required-message="Please enter your email address." required="true">
-                    <p class="help-block text-danger"></p>
-                </div>
-              </div>
-
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center padding-section-elements-bottom">
-              <div id="success"></div>
-              <button type="submit" class="btn btn-login">Login</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>

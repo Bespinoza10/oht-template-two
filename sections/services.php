@@ -18,7 +18,7 @@
       pork chop prosciutto corned beef rump jowl. Ground round meatloaf kevin turducken chuck.
     </p>
 
-    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
+    <a class="btn btn-warning" data-toggle="modal" data-target="#services-modal">Editar Servicio</a>
   </div>
 
   <div class="col-sm-3 col-md-3">
@@ -32,7 +32,7 @@
       Bacon biltong sirloin ball tip short loin tenderloin. Beef tri-tip shankle sirloin,
       pork chop prosciutto corned beef rump jowl. Ground round meatloaf kevin turducken chuck.
     </p>
-    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
+    <a class="btn btn-warning" data-toggle="modal" data-target="#services-modal">Editar Servicio</a>
   </div>
 
   <div class="col-sm-3 col-md-3">
@@ -46,7 +46,7 @@
       Bacon biltong sirloin ball tip short loin tenderloin. Beef tri-tip shankle sirloin,
       pork chop prosciutto corned beef rump jowl. Ground round meatloaf kevin turducken chuck.
     </p>
-    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
+    <a class="btn btn-warning" data-toggle="modal" data-target="#services-modal">Editar Servicio</a>
   </div>
 
   <div class="col-sm-3 col-md-3">
@@ -60,6 +60,6 @@
       Bacon biltong sirloin ball tip short loin tenderloin. Beef tri-tip shankle sirloin,
       pork chop prosciutto corned beef rump jowl. Ground round meatloaf kevin turducken chuck.
     </p>
-    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
+    <a class="btn btn-warning" data-toggle="modal" data-target="#services-modal">Editar Servicio</a>
   </div>
 </div>
