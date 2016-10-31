@@ -20,7 +20,10 @@ p{
   font-size: 18px;
 }
 a{
-  cursor: pointer;
+  cursor: pointer !important;
+  &:hover{
+    cursor: pointer !important;
+  }
 }
 
 input.form-control, .form-control[readonly]{
@@ -255,6 +258,21 @@ input.form-control, .form-control[readonly]{
 
 #contact{
   color: $footer-black;
+  a{
+    cursor: pointer;
+  }
+   p{
+    text-decoration: none;
+    font-style: italic;
+    text-transform: uppercase;
+    color: $orange;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  hr{
+    border-top-color: #000 !important;
+  }
 
   input, textarea{
     background: rgba(#fff, 0.37);

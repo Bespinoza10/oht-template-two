@@ -8,7 +8,9 @@ p {
   font-size: 18px; }
 
 a {
-  cursor: pointer; }
+  cursor: pointer !important; }
+  a:hover {
+    cursor: pointer !important; }
 
 input.form-control, .form-control[readonly] {
   border-radius: 0px;
@@ -314,6 +316,17 @@ div.caption:hover img {
 
 #contact {
   color: #222222; }
+  #contact a {
+    cursor: pointer; }
+  #contact p {
+    text-decoration: none;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #DEAF4D; }
+    #contact p:hover {
+      cursor: pointer; }
+  #contact hr {
+    border-top-color: #000 !important; }
   #contact input, #contact textarea {
     background: rgba(255, 255, 255, 0.37);
     border: 2px solid rgba(255, 255, 255, 0.95);

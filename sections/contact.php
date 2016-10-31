@@ -1,6 +1,5 @@
 <section id="contact">
   <div id="google-maps" class="container-fluid">
-    <a href="https://goo.gl/maps/oNzCZQ6Ctts" target="_blank"></a>
     <div class="container padding-section">
       <div class="col-md-6 center">
         <div class="row contact-heading">
@@ -10,7 +9,7 @@
                 <hr class="heading-hr" style="border-top-color:#fff;">
               </div>
               <br>
-              <p class=" white">Contáctanos para un estimado gratis</p>
+              <a href="https://goo.gl/maps/oNzCZQ6Ctts" target="_blank"><p class=" white">Visitenos en Nuestro Local</p></a>
           </div>
         </div>
         <form name="sentMessage" id="contactForm" novalidate>
